@@ -8,4 +8,5 @@ Este repositorio contiene las siguientes carpetas:
 
 - **Schematic**: Contiene las diferentes versiones del esquemático del proyecto, diseñadas con AutoDesk Eagle. Cada versión refleja el proceso de desarrollo y los cambios implementados con el tiempo.
 - **libraries**: Incluye todas las librerías utilizadas para la creación del esquemático.
+- **Board**: Contiene las diferentes versiones de los diseños de la placa desarrollados para el proyecto, reflejando las modificaciones y mejoras a lo largo del tiempo.
 
