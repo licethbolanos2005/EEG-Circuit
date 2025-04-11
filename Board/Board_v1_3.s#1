@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11548,9 +11548,9 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <attribute name="NAME" x="320.929" y="223.647" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="305.943" y="221.615" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="370.205" y="215.36025" smashed="yes" rot="R90">
-<attribute name="NAME" x="369.824" y="216.88425" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="374.904" y="216.88425" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="G$1" x="372.11" y="209.55" smashed="yes" rot="R90">
+<attribute name="NAME" x="371.729" y="211.074" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="376.809" y="211.074" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J3" gate="G$1" x="106.68" y="236.855" smashed="yes" rot="MR0">
 <attribute name="NAME" x="97.663" y="243.205" size="1.778" layer="95" rot="MR0" align="center-left"/>
@@ -11760,14 +11760,9 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="375.285" y1="215.36025" x2="379.73" y2="215.392" width="0.1524" layer="91"/>
+<wire x1="377.19" y1="209.55" x2="379.73" y2="209.55" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="379.73" y1="215.392" x2="379.73" y2="207.01" width="0.1524" layer="91"/>
-<pinref part="FLASH" gate="G$1" pin="COM_1"/>
-<wire x1="379.73" y1="207.01" x2="379.73" y2="203.581" width="0.1524" layer="91"/>
-<wire x1="363.474" y1="203.708" x2="363.474" y2="207.01" width="0.1524" layer="91"/>
-<wire x1="363.474" y1="207.01" x2="379.73" y2="207.01" width="0.1524" layer="91"/>
-<junction x="379.73" y="207.01"/>
+<wire x1="379.73" y1="209.55" x2="379.73" y2="203.581" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="GND"/>
@@ -11865,12 +11860,8 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <wire x1="366.014" y1="203.708" x2="366.014" y2="215.265" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="IO0"/>
 <wire x1="366.014" y1="215.265" x2="366.014" y2="220.853" width="0.1524" layer="91"/>
-<wire x1="339.09" y1="215.265" x2="365.76" y2="215.265" width="0.1524" layer="91"/>
+<wire x1="339.09" y1="215.265" x2="366.014" y2="215.265" width="0.1524" layer="91"/>
 <junction x="366.014" y="215.265"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="365.76" y1="215.265" x2="366.014" y2="215.265" width="0.1524" layer="91"/>
-<wire x1="366.014" y1="215.265" x2="367.665" y2="215.265" width="0.1524" layer="91"/>
-<wire x1="367.665" y1="215.265" x2="367.665" y2="215.36025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IRQ_RA02" class="0">
@@ -12187,6 +12178,14 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <pinref part="IC7" gate="G$1" pin="1IN+"/>
 <wire x1="125.73" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <label x="118.11" y="120.015" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="FLASH" gate="G$1" pin="COM_1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="363.474" y1="203.708" x2="363.474" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="363.474" y1="209.55" x2="369.57" y2="209.55" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-D" class="0">
