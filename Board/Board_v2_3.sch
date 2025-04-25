@@ -12335,7 +12335,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <wire x1="157.48" y1="119.38" x2="153.67" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="125.73" x2="168.91" y2="125.73" width="0.1524" layer="91"/>
 <junction x="165.1" y="125.73"/>
-<label x="163.83" y="126.365" size="1.778" layer="95"/>
+<label x="162.8775" y="126.365" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
